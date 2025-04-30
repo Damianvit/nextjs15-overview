@@ -6,9 +6,9 @@ export default function ContactPage() {
             </h2>
 
             <p className="text-gray-700 dark:text-gray-300">
-                I'm always open to new opportunities, collaborations, or just a
-                friendly chat. Feel free to reach out using the form below or
-                connect with me on social media.
+                I&aposm always open to new opportunities, collaborations, or
+                just a friendly chat. Feel free to reach out using the form
+                below or connect with me on social media.
             </p>
 
             <form className="space-y-6">

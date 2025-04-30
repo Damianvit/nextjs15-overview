@@ -5,14 +5,23 @@ export default function Home() {
         <div className="space-y-16">
             {/* About Section */}
             <section id="about" className="space-y-4">
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-                    About Me
-                </h2>
+                <div className="flex justify-between">
+                    <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
+                        About Me
+                    </h2>
+                    <Image
+                        src="/damian.jpg"
+                        alt="Photo of Damian"
+                        width={100}
+                        height={100}
+                        className="rounded-full object-cover"
+                    />
+                </div>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                    Hi! I'm Damian Vit, a full stack developer passionate about
-                    building beautiful, accessible web experiences with modern
-                    technologies like React, Next.js,Prisma ORM and Tailwind
-                    CSS.
+                    Hi! I&apos;m Damian Vit, a full stack developer passionate
+                    about building beautiful, accessible web experiences with
+                    modern technologies like React, Next.js,Prisma ORM and
+                    Tailwind CSS.
                 </p>
             </section>
 
